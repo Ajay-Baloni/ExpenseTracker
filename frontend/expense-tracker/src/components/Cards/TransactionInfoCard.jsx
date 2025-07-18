@@ -49,6 +49,7 @@ const TransactionInfoCard = ({
               {" "}
               {type === "income" ? "+" : "-"}
             </h6>
+            <h6 className="text-xs font-medium">₹{amount}</h6>
             <h6 className="">
               {" "}
               {type === "income" ? <LuTrendingUp /> : <LuTrendingDown />}
